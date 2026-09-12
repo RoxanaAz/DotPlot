@@ -163,7 +163,7 @@ def make_chart(df: pd.DataFrame, corr: dict, path: Path) -> None:
     )
 
     # Right: ROC curve
-    axes[2].plot(corr["fpr"], corr["tpr"], color="#55A868", linewidth=2,
+    axes[2].plot(corr["fpr"], corr["tpr"], color="green", linewidth=2,
                  label=f"AUC = {corr['auc']:.3f}")
     axes[2].plot([0, 1], [0, 1], linestyle="--", color="gray", linewidth=1,
                  label="Chance (AUC = 0.5)")
