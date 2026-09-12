@@ -9,7 +9,7 @@ DataFrame with ID, all nine features, and Class already aligned — this
 requires live internet access to archive.ics.uci.edu at runtime, in
 exchange for not having to hand-parse the raw `.data` file.
 
-## Pipeline (`BreastCancerPrediction.py`)
+## Pipeline (`BreastCancerRiskScore.py`)
 Everything runs in-memory with pandas; no database or persisted intermediate
 dataset is created — only the final CSV and chart are written to
 `output_Dotplot_breast_cancer/`.
